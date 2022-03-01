@@ -1,0 +1,15 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet author="lamnd" id="tag_version_1.1">
+        <tagDatabase tag="version_1.1"/>
+    </changeSet>
+
+    <include file="db/sql/v1.1/2022-02-28-02-init-table.sql"/>
+    <include file="db/sql/v1.1/2022-02-28-03-alter-table.sql"/>
+    <include file="db/sql/v1.1/2022-02-28-04-wrong-update.sql"/>
+
+</databaseChangeLog>
