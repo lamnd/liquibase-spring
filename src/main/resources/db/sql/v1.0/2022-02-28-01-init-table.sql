@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset lamnd:01
+--changeset lamnd:01 context dev
 --comment create table demo
 
 create table demo

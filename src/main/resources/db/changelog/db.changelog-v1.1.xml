@@ -10,6 +10,7 @@ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <include file="db/sql/v1.1/2022-02-28-02-init-table.sql"/>
     <include file="db/sql/v1.1/2022-02-28-03-alter-table.sql"/>
-    <include file="db/sql/v1.1/2022-02-28-04-wrong-update.sql"/>
+    <!--    <include file="db/sql/v1.1/2022-02-28-04-wrong-update.sql"/>-->
+    <include file="db/sql/v1.1/2022-03-01-05-insert-data.sql"/>
 
 </databaseChangeLog>
